@@ -67,7 +67,7 @@ job "grafana" {
            "grafana",
            "traefik.enable=true",
            "traefik.tags=service",
-           "traefik.frontend.rule=Host:monitor.prpl.one"
+           "traefik.frontend.rule=Host:monitor.0x7f.me"
         ]
         check {
           type = "http"
