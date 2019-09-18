@@ -140,7 +140,7 @@ EOH
           "prometheus",
           "traefik.enable=true",
           "traefik.tags=service",
-          "traefik.frontend.rule=Host:metrics.prpl.one"
+          "traefik.frontend.rule=Host:metrics.0x7f.me"
         ]
 
         check {
